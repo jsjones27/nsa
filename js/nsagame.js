@@ -82,19 +82,21 @@
 			if (workingColumn == undefined) {
 				console.debug("Nothing in column");
 			}
-			for(e in column1){
-				workingColumn.append(createButtonHTML(e));
-			}
+			column1.map( function(e){
+				var object= $(createButtonHTML(e));
+				object.onclick = function(e){this.displayText("TeST");}
+				workingColumn.append(object);
+			});
 
 			var workingColumn = $("#column2");
-			for(e in column3){
+			column2.map( function(e){
 				workingColumn.append(createButtonHTML(e));
-			}
+			});
 
 			var workingColumn = $("#column3");
-			for(e in column3){
+			column3.map( function(e){
 				workingColumn.append(createButtonHTML(e));
-			}
+			});
 		}
 
 		function createButtonHTML(action) {
