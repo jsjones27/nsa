@@ -32,8 +32,8 @@
 		 *  @param action - the action the user plays
 		 */
 		function UserAction ( action ) {
-			if (action != undefined && this.money >= action.price && checkPreReqs(action)) {
-				this.money -= action.price;
+			if (action != undefined && money >= action.price && checkPreReqs(action)) {
+				money -= action.price;
 				addEvent(action);
 				updateUI();
 			} else {
@@ -54,7 +54,7 @@
 
 			money = this.pdf ( 12000000, 100000 );
 			this.power = 0;
-			this.approval = this.pdf ( 70, 5 );
+			approval = this.pdf ( 70, 5 );
 		
 			this.date = new Date("01-01-1970");
 
@@ -149,14 +149,14 @@
 
 			var currentAction = eventQueue.pop();
 			while(currentAction != undefined){
-				preformAction(currentAction);
+				performAction(currentAction);
 				this.pastEvents.push(currentAction);
 			}
 
 			//Increments our values
-			this.money += this.v_money;
-			this.power += this.v_power;
-			this.approval += this.v_approval;
+			money += v_money;
+			power += v_power;
+			approval += v_approval;
 
 			// Add an empty event off the end
 
@@ -171,17 +171,17 @@
 
 		}
 
-		/**  Function preforms the changes dictated by the action
+		/**  Function performs the changes dictated by the action
 		 *
 		 *  @param action - the action from which the changes originate
 		 */
 		function performAction (action) {
-			this.v_money += action.outcomes.money;
-			this.v_power += action.outcomes.power;
-			this.v_approval += actions.outcomes.approval;
-			this.progress += action.progress;
+			v_money += action.outcomes.money;
+			v_power += action.outcomes.power;
+			//this.v_approval += actions.outcomes.approval;
+			progress += action.progress;
 
-			displayText(actions.outcomes.displayText);
+			displayText(action.outcomes.displayText);
 
 		}
 
