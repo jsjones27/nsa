@@ -29,6 +29,7 @@
                 {
                     "money" : 500.0,
                     "power" : 12000.0,
+                    "approval": -5.0,
                     "progress": 6.0,
                     "displayText" : "",
                 }
@@ -44,7 +45,8 @@
                 {
                     "money" : 13000.0,
                     "power" : 360000.0,
-                    "progress": 0.0,
+                    "approval": -5.0,
+                    "progress": 10.0,
                     "displayText" : "",
                 }
             "prereqs" : ["crypt-2"]
@@ -54,13 +56,13 @@
             "shortname" : "decrypt-academic",
             "name" : "Sabotage academic cryptography",
             "tagline" : "",
-            "price" : 0,
+            "price" : 18000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
-                    "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "money" : 120.0,
+                    "power" : 15.0,
+                    "approval": -7.0,
+                    "progress": 6.0,
                     "displayText" : "",
                 }
             "prereqs" : []
@@ -70,13 +72,13 @@
             "shortname" : "decrypt-industry",
             "name" : "Sabotage industrial cryptography",
             "tagline" : "",
-            "price" : 0,
+            "price" : 1230000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
-                    "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "money" : 12300.0,
+                    "power" : 2139.0,
+                    "approval": -5.0,
+                    "progress": 12.0,
                     "displayText" : "",
                 }
             "prereqs" : []
