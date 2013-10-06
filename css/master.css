@@ -1,0 +1,167 @@
+
+	html, body {
+		background-color: #000;
+		color: #29A5BB;
+		font-family: 'Sintony', Verdana;
+	}
+
+	body {
+		padding: 35px;
+		margin-left: 275px;
+	}
+
+	h1 {
+		color: #111;
+		background-color: #29A5BB;
+		padding: 10px;
+		margin: 0 0 15px 0;
+	}
+
+	.page-gamemenu-interestarea {
+		background-color: rgba(255,255,255,0.04);
+		padding: 15px;
+		margin-right: 15px;
+		float: left;
+		overflow: auto;
+	}
+
+	#page-lefthandside {
+		position: absolute;
+		top: 35px;
+		left: 35px;
+		float: left;
+		margin-right: 15px;
+		height: 900px;
+	}
+
+	#page-masthead {
+		width: 250px;
+		height: 250px;
+		border: 3px solid #29A5BB;
+	}
+
+	#gamecontrol a {
+		display: block;
+		padding: 8px 10px;
+		text-decoration: none;
+		color: #FFF;
+		font-size: 120%;
+	}
+
+	#page-gamemenu {
+		overflow: auto;
+		clear: right;
+		margin-bottom: 15px;
+	}
+
+	nav.interestarea {
+		float: left;
+		overflow: auto;
+		background-color: rgba(255, 128, 0, 0.05);
+		margin: 0 15px 15px 0;
+	}
+
+	.page-gamemenu-interestarea {
+		height: 280px;
+		width: 310px;
+		border: 1px solid #444;
+	}
+
+	.page-gamemenu-interestarea:last { margin: 0; }
+
+	.interestarea-menu {
+		float: left;
+		overflow: auto;
+	}
+
+	.interestarea-title {
+		display: block;
+		font-weight: bold;
+		padding: 5px;
+		border-bottom: 1px solid #
+		margin-bottom: 5px;
+		letter-spacing: 2px;
+		text-align: center;
+		text-transform: uppercase;
+	}
+
+	a.gamemenu-action {
+		display: block;
+		padding: 8px 10px;
+		text-decoration: none;
+		color: #FFF;
+		font-size: 90%;
+	}
+
+	.gamemenu-action .action-title { display: block; }
+	.gamemenu-action .action-tagline { display: block; color: #999; font-style: italic; }
+	.gamemenu-action .action-price { display: block; color: #070;}
+
+	#page-gamemenu nav.interestarea-menu a:hover {
+		background-color: #FFF;
+		color: #111;
+	}
+
+	#page-gamemenu nav.interestarea-menu a:active {
+		background-color: #29A5BB;
+	}
+
+	#page-gamemenu nav.interestarea-menu a.inactive-menuitem {
+		background-color: #444;
+		color: #777;
+		font-style: italic;
+	}
+
+	#page-figures {
+		margin-top: 15px;
+		margin-right: 15px;
+	}
+
+	.page-figures-capital, .page-figures-capital-small {
+		border: 1px solid #222;
+		padding: 10px;
+		width: 250px
+		margin-right: 15px;
+		background-color: rgba(255,255,255,0.04);
+		margin-bottom: 15px;
+		text-align: center;
+	}
+
+	.big-number-label {
+		font-weight: 900;
+	}
+
+	.big-number-number {
+		font-size: 24px;
+	}
+
+	.big-number-graph {
+		height: 120px;
+		border: 1px solid #222;
+		margin-top: 10px;
+	}
+
+	#page-bottomhalf {
+		overflow: auto;
+		width: 85%;
+	}
+
+	#page-action-console {
+		width: 550px;
+		float: left;
+		margin-right: 15px;
+	}
+
+	#action-console-text {
+		font-family: monospace;
+		padding: 15px;
+		margin: 0;
+		height: 300px;
+	}
+
+	#page-world-map {
+		float: left;
+		width: 325px;
+	}
+
+	
