@@ -39,7 +39,7 @@
 		}
 
 		function init () {
-
+			console.debug("testing tick...");
 			// initialize game variables
 
 			this.money = this.pdf ( 12000000000, 10 );
@@ -154,10 +154,9 @@
 
 		}
 
-		this.init();
-
-		setInterval(tick(), globalTick);
-
 	}
 
-		
+	var game = new NSAGame();
+	game.init();	
+	setInterval(game.tick(), globalTick);
+	
