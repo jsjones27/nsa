@@ -37,7 +37,6 @@
 	#page-masthead {
 		width: 250px;
 		height: 250px;
-		border: 3px solid #29A5BB;
 	}
 
 	#gamecontrol a {
@@ -157,6 +156,7 @@
 		padding: 15px;
 		margin: 0;
 		height: 300px;
+		overflow-y: scroll;
 	}
 
 	#page-world-map {
@@ -164,4 +164,16 @@
 		width: 325px;
 	}
 
-	
+	::-webkit-scrollbar {
+    width: .5em;
+    height: .5em;
+	}
+	::-webkit-scrollbar-button {
+	    background: #29A5BB
+	}
+	::-webkit-scrollbar-track-piece {
+	    background: #222
+	}
+	::-webkit-scrollbar-thumb {
+	    background: #29A5BB
+	}​

@@ -131,9 +131,10 @@
 		 *   @param text - text ot be displayed
 		 */
 		function displayText(text) {
-			//adds the text to the bottom of the status terminal
-
-		}
+				var console = document.getElementById("action-console-text");
+				console.innerHTML += (text + "<br>");
+				console.scrollTop = console.scrollHeight;
+			}
 
 		/** Function gets an action from the action name
 		 *
@@ -186,7 +187,7 @@
 
 		this.init();
 
-		setInterval(tick(), globalTick);
+		//setInterval(tick(), globalTick);
 
 	}
 
