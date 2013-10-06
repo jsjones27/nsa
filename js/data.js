@@ -7,13 +7,12 @@
             "shortname" : "crypt-1",
             "name" : "Cryptography I",
             "tagline" : "",
-            "price" : 0,
+            "price" : 12000000,
             "outcomes" : [
 				{
-                    "money" : 0.0,
-					"power" : 1.0,
-                    "aproval": 0.0,
-                    "progress": 0.0,
+                    "money" : 10.0,
+					"power" : 1000.0,
+                    "progress": 2.5,
 					"displayText" : "",
 				}
 			],
@@ -24,13 +23,12 @@
             "shortname" : "crypt-2",
             "name" : "Cryptography II",
             "tagline" : "",
-            "price" : 0,
+            "price" : 24000000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
-                    "power" : 1.0,
-                    "aproval": 0.0,
-                    "progress": 0.0,
+                    "money" : 500.0,
+                    "power" : 12000.0,
+                    "progress": 6.0,
                     "displayText" : "",
                 }
             "prereqs" : ["crypt-1"]
@@ -40,12 +38,11 @@
             "shortname" : "crypt-3",
             "name" : "Cryptography III",
             "tagline" : "",
-            "price" : 0,
+            "price" : 92000000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
-                    "power" : 1.0,
-                    "aproval": 0.0,
+                    "money" : 13000.0,
+                    "power" : 360000.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -61,7 +58,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -77,7 +73,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -93,7 +88,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -111,7 +105,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -127,7 +120,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -143,7 +135,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -160,7 +151,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -176,7 +166,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -192,7 +181,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -208,7 +196,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -226,7 +213,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -242,7 +228,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -258,7 +243,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -274,7 +258,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -290,7 +273,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -306,7 +288,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -322,7 +303,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -338,7 +318,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -354,7 +333,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -372,7 +350,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -388,7 +365,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -404,7 +380,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -420,7 +395,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -436,7 +410,6 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
