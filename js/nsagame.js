@@ -43,6 +43,7 @@
 		}
 
 		function updateUI() {
+			$('#budget').html("$" + money);
 			init_buttons();
 		}
 
@@ -51,7 +52,7 @@
 		this.init = function () {			
 			// initialize game variables
 
-			this.money = this.pdf ( 12000000000, 10 );
+			money = this.pdf ( 12000000, 100000 );
 			this.power = 0;
 			this.approval = this.pdf ( 70, 5 );
 		
@@ -63,8 +64,7 @@
 
 			var eventQueue = [];
 
-			init_buttons();
-			
+			updateUI();
 		}
 
 		function init_buttons(){
