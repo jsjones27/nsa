@@ -165,6 +165,7 @@
 			updateUI();
 			
 			if (checkVictory()) {
+				displayText("With your firm and unquestionable leadership you have confirmed the safty of the nation!\nYOU WIN!");
 				return false;
 			}else {
 				return true;
