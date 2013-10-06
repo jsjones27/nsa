@@ -64,7 +64,7 @@
 		function tick () {
 
 			// Pop the event that's supposed to happen today and do it.
-			for( currentAction in eventQueue)
+			for( currentAction in eventQueue) {
 				if(currentAction != []){
 					preformAction(currentAction);
 					currentAction = [];
@@ -138,12 +138,9 @@
 		}
 
 		this.init();
-		while(tick()) {
 
-		}
+		setInterval(tick(), globalTick);
 
 	}
-
-
 
 		
