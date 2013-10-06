@@ -72,7 +72,7 @@
 
 			// Add an empty event off the end
 
-			days_passed += 1;
+			this.date.setTime(this.date.getTime() + 86400000);
 
 			if (checkVictory()) {
 				return false;
