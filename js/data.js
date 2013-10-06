@@ -97,7 +97,7 @@
             "shortname" : "mandate-standard",
             "name" : "Mandate compromised security standard",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -117,7 +117,7 @@
             "shortname" : "cysec-1",
             "name" : "Cybersecurity I",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -135,7 +135,7 @@
             "shortname" : "cysec-2",
             "name" : "Cybersecurity II",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -153,7 +153,7 @@
             "shortname" : "cysec-3",
             "name" : "Cybersecurity III",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -172,7 +172,7 @@
             "name" : "Launch cyberattack against China",
             "tagline" : "",
         
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -190,7 +190,7 @@
             "shortname" : "attack-russia",
             "name" : "Launch cyberattack against Russia",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -208,7 +208,7 @@
             "shortname" : "malware",
             "name" : "Design and distribute malware",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -226,7 +226,7 @@
             "shortname" : "foreign-raid",
             "name" : "Raid foreign datacenter",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -246,7 +246,7 @@
             "shortname" : "comm-1",
             "name" : "Communications I",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -264,7 +264,7 @@
             "shortname" : "comm-2",
             "name" : "Communications II",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -282,7 +282,7 @@
             "shortname" : "comm-3",
             "name" : "Communications III",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -300,7 +300,7 @@
             "shortname" : "mitm",
             "name" : "Deploy batch of MITM onion routing nodes",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
              "outcomes" : [
                 {
                     "money" : 0.0,
@@ -318,7 +318,7 @@
             "shortname" : "backdoor",
             "name" : "Solicit software company to include backdoor",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
              "outcomes" : [
                 {
                     "money" : 0.0,
@@ -336,7 +336,7 @@
             "shortname" : "fisa",
             "name" : "Issue FISA order for user data from US tech company",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -354,7 +354,7 @@
             "shortname" : "surveil",
             "name" : "Contract mass-surveillance software project",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -372,7 +372,7 @@
             "shortname" : "warehousing",
             "name" : "Provision data warehousing facility",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -390,7 +390,7 @@
             "shortname" : "fiber-spy",
             "name" : "Install fiber optic interception apparatus",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -410,7 +410,7 @@
             "shortname" : "statement",
             "name" : "Issue statement regarding activities",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -426,7 +426,7 @@
             "shortname" : "brief-congress",
             "name" : "Brief Congress on new initiatives",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -442,7 +442,7 @@
             "shortname" : "influence-senate",
             "name" : "Exert influence on Senate",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -458,7 +458,7 @@
             "shortname" : "terror-threat",
             "name" : "Fabricate terrorist threat",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
@@ -474,7 +474,7 @@
             "shortname" : "snowden",
             "name" : "Snowden",
             "tagline" : "",
-            "price" : 0,
+            "price" : 2500000,
             "outcomes" : [
                 {
                     "money" : 0.0,
