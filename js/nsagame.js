@@ -189,12 +189,26 @@
 
 	var game = new NSAGame();
 	game.init();
+	game.running = true;
 	startGame();
 	
-	function startGame() {	
+	function startGame() {
 		timer = setInterval(function(){game.tick()}, game.globalTick);
+		console.debug($('#gamecontrol a').text("asdf"));
+		$('#gamecontrol a').text("asd");
 	}
 
 	function pauseGame() {
 		clearInterval(timer);
 	}
+	$('#startpause').text('asdf');
+	$('#startpause').click(function(){
+		$(this).text("asfd'");
+		console.debug("adsf");
+		if (game.running) {
+			pauseGame();
+		} else {
+			startGame();
+		}
+		game.running = !game.running;
+	});
