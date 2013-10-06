@@ -39,7 +39,7 @@
 		}
 
 		function init () {
-			console.debug("testing tick...");
+			
 			// initialize game variables
 
 			this.money = this.pdf ( 12000000000, 10 );
@@ -80,6 +80,7 @@
 
 		function tick () {
 
+			console.debug("testing tick...");
 			// Pop the event that's supposed to happen today and do it.
 
 			var currentAction = eventQueue.pop();
