@@ -87,7 +87,6 @@
 		 */
 		this.tick = function () {
 
-			console.debug("testing tick...");
 			// Pop the event that's supposed to happen today and do it.
 
 			var currentAction = eventQueue.pop();
