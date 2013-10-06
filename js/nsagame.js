@@ -20,7 +20,7 @@
 		var netopsLevel = 0;
 		var commLevel = 0;
 
-		var globalTick = 1000;
+		this.globalTick = 1000;
 		var pastEvents = [];
 		var eventQueue = [];
 
@@ -56,7 +56,6 @@
 			var netopsLevel = 0;
 			var commLevel = 0;
 
-			var globalTick = 1000;
 			var eventQueue = [];
 			
 		}
@@ -190,4 +189,4 @@
 
 	var game = new NSAGame();
 	game.init();
-	setInterval(game.tick(), game.globalTick);
+	setInterval(function(){game.tick()}, game.globalTick);
