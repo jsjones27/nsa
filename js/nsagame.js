@@ -43,7 +43,7 @@
 		}
 
 		function updateUI() {
-			
+			init_buttons();
 		}
 
 		/** Function initializes local variables for gameplay.
@@ -84,9 +84,7 @@
 				}
 			} );
 			var workingColumn = $("#column1");
-			if (workingColumn == undefined) {
-				console.debug("Nothing in column");
-			}
+			workingColumn.html("");
 			column1.map( function(e){
 				var object = $(createButtonHTML(e)).click( function(){
 					UserAction(e);
@@ -95,6 +93,7 @@
 			});
 
 			var workingColumn = $("#column2");
+			workingColumn.html("");
 			column2.map( function(e){
 				var object= $(createButtonHTML(e));
 				object.click( function(){
@@ -104,6 +103,7 @@
 			});
 
 			var workingColumn = $("#column3");
+			workingColumn.html("");
 			column3.map( function(e){
 				var object= $(createButtonHTML(e));
 				object.click( function(){
