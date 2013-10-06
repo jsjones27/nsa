@@ -132,12 +132,9 @@
 		}
 
 		this.init();
-		while(tick()) {
 
-		}
+		setInterval(tick(), globalTick);
 
 	}
-
-
 
 		
