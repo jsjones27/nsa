@@ -21,6 +21,7 @@
 		var commLevel = 0;
 
 		var globalTick = 1000;
+		var pastEvents = [];
 		var eventQueue = [];
 
 	
@@ -61,14 +62,30 @@
 				
 		*/
 
+		function checkPreReqs(action) {
+			var count = 0;
+			for(e in pastEvents){
+				for(preReq in action.prereqs){
+					if(e == preReq) {
+						counter += 1;
+					}
+				}
+			}
+			if (counter == action.prereqs.length) {
+				return true;
+			} else {
+				return false;
+			}
+		}
+
 		function tick () {
 
 			// Pop the event that's supposed to happen today and do it.
-			for( currentAction in eventQueue) {
-				if(currentAction != []){
-					preformAction(currentAction);
-					currentAction = [];
-				}
+
+			var currentAction = eventQueue.pop();
+			while(currentAction != undefined){
+				preformAction(currentAction);
+				this.pastEvents.push(currentAction);
 			}
 
 			//Increments our values
