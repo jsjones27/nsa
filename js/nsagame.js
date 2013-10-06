@@ -184,6 +184,10 @@
 
 		}
 
+		this.init();
+
+		setInterval(tick(), globalTick);
+
 	}
 
 	var game = new NSAGame();
