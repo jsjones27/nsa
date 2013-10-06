@@ -157,6 +157,5 @@
 	}
 
 	var game = new NSAGame();
-	game.init();	
+	game.init();
 	setInterval(game.tick(), globalTick);
-	
