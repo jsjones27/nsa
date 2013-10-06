@@ -50,7 +50,7 @@
 			this.power = 0;
 			this.approval = this.pdf ( 70, 5 );
 		
-			var date = new Date("01-01-1970");
+			this.date = new Date("01-01-1970");
 
 			var cryptoLevel = 0;
 			var netopsLevel = 0;
@@ -156,7 +156,7 @@
 		function checkVictory() {
 			if (progress >= 100) {
 				return true;
-			} else if (progess <= 0) {
+			} else if (progress <= 0) {
 				return false;
 			}
 			if (this.date >= Date("06-01-2013")) {
@@ -190,4 +190,4 @@
 
 	var game = new NSAGame();
 	game.init();
-	setInterval(game.tick(), globalTick);
+	setInterval(game.tick(), game.globalTick);
