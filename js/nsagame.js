@@ -28,7 +28,13 @@
 		// user-initiated action
 
 		function UserAction ( action ) {
-			this.name = action["name"];
+			if (this.money >= action.price) {
+				this.money -= action.price;
+				addEvent(action);
+			} else {
+				displayText("You do not have enough funds for " + action.name);
+			}
+			
 		}
 
 		function init () {
