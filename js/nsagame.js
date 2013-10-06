@@ -39,15 +39,14 @@
 			this.power = 0;
 			this.approval = pdf ( 70, 5 );
 		
-			var start_date = new Date("01-01-1970");
-			var days_passed = 0;
+			var date = new Date("01-01-1970");
 
 			var cryptoLevel = 0;
 			var netopsLevel = 0;
 			var commLevel = 0;
 
 			var globalTick = 1000;
-			var eventQueue = [ [], [], [], [], [], [], [], [] ];
+			var eventQueue = [];
 			
 		}
 
@@ -72,6 +71,8 @@
 			this.approval += this.v_approval;
 
 			// Add an empty event off the end
+
+			days_passed += 1;
 
 			if (checkVictory()) {
 				return false;
@@ -111,10 +112,14 @@
 			} else if (progess <= 0) {
 				return false;
 			}
-			if (this.date >= "06-01-2013") {
+			if (this.date >= Date("06-01-2013")) {
 				addEvent("snowden");
 			}
 
+		}
+
+		function addEvent(newAction) {
+			eventQueue.push(newAction);
 		}
 
 		// Make a number "believable", +/- a given value
@@ -123,6 +128,11 @@
 		function pdf ( mean, error ) {
 
 			return Math.floor((Math.random()*2*error)+mean-error);
+
+		}
+
+		this.init();
+		while(tick()) {
 
 		}
 
