@@ -38,7 +38,7 @@
 			
 		}
 
-		function init () {
+		this.init = function () {
 			
 			// initialize game variables
 
