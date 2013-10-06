@@ -17,7 +17,8 @@
 					"displayText" : "",
 				}
 			],
-            "prereqs" : []
+            "prereqs" : [],
+            "column": 1
         },
         
         {
@@ -33,9 +34,11 @@
                     "progress": 6.0,
                     "displayText" : "",
                 }
-            "prereqs" : ["crypt-1"]
+                ],
+            "prereqs" : ["crypt-1"],
+            "column": 1
         }
-        
+        ,
         {
             "shortname" : "crypt-3",
             "name" : "Cryptography III",
@@ -49,8 +52,10 @@
                     "progress": 10.0,
                     "displayText" : "",
                 }
-            "prereqs" : ["crypt-2"]
-        }
+                ],
+            "prereqs" : ["crypt-2"],
+            "column": 1
+        },
 
         {
             "shortname" : "decrypt-academic",
@@ -65,8 +70,10 @@
                     "progress": 6.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 1
+        },
 
         {
             "shortname" : "decrypt-industry",
@@ -81,8 +88,10 @@
                     "progress": 12.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 1
+        },
 
         {
             "shortname" : "mandate-standard",
@@ -97,8 +106,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 1
+        },
 
         /* Computer Network Operations */
 
@@ -115,7 +126,9 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
+                ],
+            "prereqs" : [],
+            "column": 2
         },
         
         {
@@ -131,8 +144,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : ["cysec-1"]
-        }
+                ],
+            "prereqs" : ["cysec-1"],
+            "column": 2
+        },
         
         {
             "shortname" : "cysec-3",
@@ -147,8 +162,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : ["cysec-2"]
-        }
+                ],
+            "prereqs" : ["cysec-2"],
+            "column": 2
+        },
 
         {
             "shortname" : "attack-china",
@@ -164,8 +181,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 2
+        },
 
         {
             "shortname" : "attack-russia",
@@ -180,8 +199,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 2
+        },
 
         {
             "shortname" : "malware",
@@ -196,8 +217,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 2
+        },
 
         {
             "shortname" : "foreign-raid",
@@ -212,8 +235,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 2
+        },
 
         /* Communications */
 
@@ -230,7 +255,9 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
+                ],
+            "prereqs" : [],
+            "column": 3
         },
         
         {
@@ -246,8 +273,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : ["comm-1"]
-        }
+                ],
+            "prereqs" : ["comm-1"],
+            "column": 3
+        },
         
         {
             "shortname" : "comm-3",
@@ -262,8 +291,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : ["comm-2"]
-        }
+                ],
+            "prereqs" : ["comm-2"],
+            "column": 3
+        },
 
         {
             "shortname" : "mitm",
@@ -278,8 +309,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 3
+        },
 
         {
             "shortname" : "backdoor",
@@ -294,8 +327,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 3
+        },
 
         {
             "shortname" : "fisa",
@@ -310,8 +345,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 3
+        },
 
         {
             "shortname" : "surveil",
@@ -326,8 +363,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 3
+        },
 
         {
             "shortname" : "warehousing",
@@ -342,8 +381,10 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
-        }
+                ],
+            "prereqs" : [],
+            "column": 3
+        },
 
         {
             "shortname" : "fiber-spy",
@@ -358,11 +399,13 @@
                     "progress": 0.0,
                     "displayText" : "",
                 }
-            "prereqs" : []
+                ],
+            "prereqs" : [],
+            "column": 3
         }
 
         /* Domestic Politics */
-
+/*
         {
             "shortname" : "statement",
             "name" : "Issue statement regarding activities",
@@ -441,12 +484,12 @@
                     "displayText" : "",
                 }
             "prereqs" : []
-        } 
+        } */
 
     ];
 
     var randomAction = []
-
+/*
 	var 
 
 	action
@@ -459,4 +502,4 @@
 
 	outcomes
 		displayText
-		
+		*/
