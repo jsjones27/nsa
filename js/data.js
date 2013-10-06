@@ -6,7 +6,7 @@
         {
             "shortname" : "crypt-1",
             "name" : "Cryptography I",
-            "tagline" : "",
+            "tagline" : "Research into using and explioting basic cypto",
             "price" : 12000000,
             "outcomes" : [
 				{
@@ -14,7 +14,7 @@
 					"power" : 1000.0,
                     "approval": -5.0,
                     "progress": 2.5,
-					"displayText" : "",
+					"displayText" : "You now have Cryptography I",
 				}
 			],
             "prereqs" : [],
@@ -60,7 +60,7 @@
         {
             "shortname" : "decrypt-academic",
             "name" : "Sabotage academic cryptography",
-            "tagline" : "",
+            "tagline" : "Gain access to academic level encryption vulnerabilities.",
             "price" : 18000,
             "outcomes" : [
                 {
@@ -68,7 +68,7 @@
                     "power" : 15.0,
                     "approval": -7.0,
                     "progress": 6.0,
-                    "displayText" : "",
+                    "displayText" : "You have gained access to the computer systems of the major academic institues.",
                 }
                 ],
             "prereqs" : [],
@@ -86,7 +86,7 @@
                     "power" : 2139.0,
                     "approval": -5.0,
                     "progress": 12.0,
-                    "displayText" : "",
+                    "displayText" : "You have gained access to the computer systems of the major industry leaders",
                 }
                 ],
             "prereqs" : [],
@@ -116,7 +116,7 @@
         {
             "shortname" : "cysec-1",
             "name" : "Cybersecurity I",
-            "tagline" : "",
+            "tagline" : "Protect yourself against cyber attacks",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -124,7 +124,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You are on your way towards a strong cyber defense.",
                 }
                 ],
             "prereqs" : [],
