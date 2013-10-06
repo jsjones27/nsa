@@ -14,9 +14,8 @@
 					"power" : 1000.0,
                     "approval": -5.0,
                     "progress": 2.5,
-					"displayText" : "You now have Cryptography I",
-				}
-			],
+					"displayText" : "You now have Cryptography I"
+				}],
             "prereqs" : [],
             "column": 1
         },
@@ -24,7 +23,7 @@
         {
             "shortname" : "crypt-2",
             "name" : "Cryptography II",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 24000000,
             "outcomes" : [
                 {
@@ -32,9 +31,8 @@
                     "power" : 12000.0,
                     "approval": -5.0,
                     "progress": 6.0,
-                    "displayText" : "",
-                }
-                ],
+                    "displayText" : "You have invested in a new important research."
+                }],
             "prereqs" : ["crypt-1"],
             "column": 1
         }
@@ -42,7 +40,7 @@
         {
             "shortname" : "crypt-3",
             "name" : "Cryptography III",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 92000000,
             "outcomes" : [
                 {
@@ -50,7 +48,7 @@
                     "power" : 360000.0,
                     "approval": -5.0,
                     "progress": 10.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : ["crypt-2"],
@@ -68,7 +66,7 @@
                     "power" : 15.0,
                     "approval": -7.0,
                     "progress": 6.0,
-                    "displayText" : "You have gained access to the computer systems of the major academic institues.",
+                    "displayText" : "You have gained access to the computer systems of the major academic institues."
                 }
                 ],
             "prereqs" : [],
@@ -78,7 +76,7 @@
         {
             "shortname" : "decrypt-industry",
             "name" : "Sabotage industrial cryptography",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 1230000,
             "outcomes" : [
                 {
@@ -86,7 +84,7 @@
                     "power" : 2139.0,
                     "approval": -5.0,
                     "progress": 12.0,
-                    "displayText" : "You have gained access to the computer systems of the major industry leaders",
+                    "displayText" : "You have gained access to the computer systems of the major industry leaders"
                 }
                 ],
             "prereqs" : [],
@@ -96,7 +94,7 @@
         {
             "shortname" : "mandate-standard",
             "name" : "Mandate compromised security standard",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -104,7 +102,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -122,9 +120,9 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "approval": 0.0,
+                    "approval": -10.0,
                     "progress": 0.0,
-                    "displayText" : "You are on your way towards a strong cyber defense.",
+                    "displayText" : "You are on your way towards a strong cyber defense."
                 }
                 ],
             "prereqs" : [],
@@ -134,7 +132,7 @@
         {
             "shortname" : "cysec-2",
             "name" : "Cybersecurity II",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -142,7 +140,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : ["cysec-1"],
@@ -152,7 +150,7 @@
         {
             "shortname" : "cysec-3",
             "name" : "Cybersecurity III",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -160,7 +158,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : ["cysec-2"],
@@ -170,7 +168,7 @@
         {
             "shortname" : "attack-china",
             "name" : "Launch cyberattack against China",
-            "tagline" : "",
+            "tagline" : " ",
         
             "price" : 2500000,
             "outcomes" : [
@@ -179,7 +177,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -189,7 +187,7 @@
         {
             "shortname" : "attack-russia",
             "name" : "Launch cyberattack against Russia",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -197,7 +195,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -207,7 +205,7 @@
         {
             "shortname" : "malware",
             "name" : "Design and distribute malware",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -215,7 +213,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -225,7 +223,7 @@
         {
             "shortname" : "foreign-raid",
             "name" : "Raid foreign datacenter",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -233,7 +231,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -245,7 +243,7 @@
         {
             "shortname" : "comm-1",
             "name" : "Communications I",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -253,7 +251,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -263,7 +261,7 @@
         {
             "shortname" : "comm-2",
             "name" : "Communications II",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -271,7 +269,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : ["comm-1"],
@@ -281,7 +279,7 @@
         {
             "shortname" : "comm-3",
             "name" : "Communications III",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -289,7 +287,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : ["comm-2"],
@@ -299,7 +297,7 @@
         {
             "shortname" : "mitm",
             "name" : "Deploy batch of MITM onion routing nodes",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
              "outcomes" : [
                 {
@@ -307,7 +305,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -317,7 +315,7 @@
         {
             "shortname" : "backdoor",
             "name" : "Solicit software company to include backdoor",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
              "outcomes" : [
                 {
@@ -325,7 +323,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -335,7 +333,7 @@
         {
             "shortname" : "fisa",
             "name" : "Issue FISA order for user data from US tech company",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -343,7 +341,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -353,7 +351,7 @@
         {
             "shortname" : "surveil",
             "name" : "Contract mass-surveillance software project",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -361,7 +359,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -371,7 +369,7 @@
         {
             "shortname" : "warehousing",
             "name" : "Provision data warehousing facility",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -379,7 +377,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -389,7 +387,7 @@
         {
             "shortname" : "fiber-spy",
             "name" : "Install fiber optic interception apparatus",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -397,7 +395,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research."
                 }
                 ],
             "prereqs" : [],
@@ -409,7 +407,7 @@
         {
             "shortname" : "statement",
             "name" : "Issue statement regarding activities",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -417,7 +415,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []
         }
@@ -425,7 +423,7 @@
         {
             "shortname" : "brief-congress",
             "name" : "Brief Congress on new initiatives",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -433,7 +431,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []
         } 
@@ -441,7 +439,7 @@
         {
             "shortname" : "influence-senate",
             "name" : "Exert influence on Senate",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -449,7 +447,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []
         } 
@@ -457,7 +455,7 @@
         {
             "shortname" : "terror-threat",
             "name" : "Fabricate terrorist threat",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -465,7 +463,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []
         } 
@@ -473,7 +471,7 @@
                 {
             "shortname" : "snowden",
             "name" : "Snowden",
-            "tagline" : "",
+            "tagline" : " ",
             "price" : 2500000,
             "outcomes" : [
                 {
@@ -481,7 +479,7 @@
                     "power" : 1.0,
                     "approval": 0.0,
                     "progress": 0.0,
-                    "displayText" : "",
+                    "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []
         } */

@@ -36,7 +36,7 @@
 				money -= action.price;
 				addEvent(action);
 				updateUI();
-			} else {
+			} else if(action != undefined && money >= action.price){
 				displayText("You do not have enough funds for " + action.name);
 			}
 			
@@ -180,11 +180,11 @@
 		function performAction (action) {
 			if(action != undefined ) {
 				v_money += action.outcomes[0].money;
-				v_power += action.outcomes.power;
+				v_power += action.outcomes[0].power;
 				//this.v_approval += actions.outcomes.approval;
 				progress += action.progress;
 
-				displayText(action.outcomes.displayText);
+				displayText(action.outcomes[0].displayText);
 			}
 
 		}
@@ -194,9 +194,14 @@
 		 *   @param text - text ot be displayed
 		 */
 		function displayText(text) {
-				var console = document.getElementById("action-console-text");
-				console.innerHTML += (text + "<br>");
-				console.scrollTop = console.scrollHeight;
+				var terminal = document.getElementById("action-console-text");
+				if ( text === undefined) {
+					console.debug("The text you tried to deisplay id undefined");
+					terminal.innerHTML += "FORGEIN HACK DETECTED: COUNTERMEASURES ACTIVE <br>" ;
+				}else{
+					terminal.innerHTML += (text + "<br>");
+				}
+				terminal.scrollTop = terminal.scrollHeight;
 			}
 
 		/** Function gets an action from the action name
