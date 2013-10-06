@@ -32,7 +32,7 @@
 		 *  @param action - the action the user plays
 		 */
 		function UserAction ( action ) {
-			if (this.money >= action.price && checkPreReqs(action)) {
+			if (this.money >= action.price && action != undefined && checkPreReqs(action)) {
 				this.money -= action.price;
 				addEvent(action);
 			} else {
@@ -66,9 +66,9 @@
 			var column1 = [];
 			var column2 = [];
 			var column3 = [];
-
-			for(action in actions) {
-				if(checkPreReqs(action)) {
+			
+			actions.map( function(action) {
+				if(action != undefined && checkPreReqs(action)) {
 					if(action.column == 1){
 						column1.push(action);
 					}else if(action.column == 2){
@@ -77,23 +77,23 @@
 						column3.push(action);
 					}
 				}
-			}
-			var workingColumn = document.getElementById("column1");
+			} );
+			var workingColumn = $("#column1");
 			if (workingColumn == undefined) {
 				console.debug("Nothing in column");
 			}
 			for(e in column1){
-				workingColumn.innerHTML += createButtonHTML(e);
+				workingColumn.append(createButtonHTML(e));
 			}
 
-			var workingColumn = document.getElementById("column2");
+			var workingColumn = $("#column2");
 			for(e in column3){
-				workingColumn.innerHTML += createButtonHTML(e);
+				workingColumn.append(createButtonHTML(e));
 			}
 
-			var workingColumn = document.getElementById("column3");
+			var workingColumn = $("#column3");
 			for(e in column3){
-				workingColumn.innerHTML += createButtonHTML(e);
+				workingColumn.append(createButtonHTML(e));
 			}
 		}
 
@@ -115,7 +115,7 @@
 					}
 				}
 			}
-			console.debug(action);
+			
 			if (action != undefined && count == action.prereqs.length) {
 				return true;
 			} else {
