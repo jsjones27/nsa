@@ -180,7 +180,7 @@
 		 *  @error - the max distance from the mean the number will lie
 		 *  @return and semi random number 
 		 */
-		function pdf ( mean, error ) {
+		this.pdf = function( mean, error ) {
 
 			return Math.floor((Math.random()*2*error)+mean-error);
 
