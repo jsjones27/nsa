@@ -203,11 +203,11 @@
 		 *  @return the action found with that name, undefined otherwise
 		 */
 		function getAction(actionName) {
-			for( action in actions) {
+			actions.map ( function (action) {
 				if(action.name == actionName) {
 					return action;
 				}
-			}
+			} );
 			return undefined;
 		}
 
