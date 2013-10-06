@@ -1,11 +1,17 @@
 
 	function NSAGame () {
 
-	/*
+	
 
 		var money = 0;
 		var power = 0;
 		var approval = 0;
+
+		var v_money = 0;
+		var v_power = 0;
+		var v_approval = 0;
+
+		var progress = 0;
 
 		var start_date = new Date("01-01-1970");
 		var days_passed = 0;
@@ -17,7 +23,7 @@
 		var globalTick = 1000;
 		var eventQueue = [];
 
-	*/
+	
 
 		// user-initiated action
 
@@ -53,12 +59,61 @@
 		function tick () {
 
 			// Pop the event that's supposed to happen today and do it.
+			for( currentAction in eventQueue)
+				if(currentAction != []){
+					preformAction(currentAction);
+					currentAction = [];
+				}
+			}
+
+			//Increments our values
+			this.money += this.v_money;
+			this.power += this.v_power;
+			this.approval += this.v_approval;
 
 			// Add an empty event off the end
 
+			if (checkVictory()) {
+				return false;
+			}else {
+				return true;
+			}
+
 		}
 
-		function performAction () {
+		function performAction (action) {
+			this.v_money += action.outcomes.money;
+			this.v_power += action.outcomes.power;
+			this.v_approval += actions.outcomes.approval;
+			this.progress += action.progress;
+
+			displayText(actions.outcomes.displayText);
+
+		}
+
+		function displayText(text) {
+			//adds the text to the bottom of the status terminal
+
+		}
+
+		function getAction(actionName) {
+			for( action in actions) {
+				if(action.name == actionName) {
+					return action;
+				}
+			}
+			return false;
+		}
+
+		function checkVictory() {
+			if (progress >= 100) {
+				return true;
+			} else if (progess <= 0) {
+				return false;
+			}
+			if (this.date >= "06-01-2013") {
+				addEvent("snowden");
+			}
 
 		}
 

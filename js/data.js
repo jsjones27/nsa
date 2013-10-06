@@ -10,11 +10,11 @@
             "price" : 0,
             "outcomes" : [
 				{
-					"p" : 1.0,
+                    "money" : 0.0,
+					"power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
 					"displayText" : "",
-					"effect" : function ( game ) {
-						
-					}
 				}
 			],
             "prereqs" : []
@@ -25,7 +25,14 @@
             "name" : "Cryptography II",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : ["crypt-1"]
         }
         
@@ -34,7 +41,14 @@
             "name" : "Cryptography III",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : ["crypt-2"]
         }
 
@@ -43,7 +57,14 @@
             "name" : "Sabotage academic cryptography",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -52,7 +73,14 @@
             "name" : "Sabotage industrial cryptography",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -61,7 +89,14 @@
             "name" : "Mandate compromised security standard",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -72,7 +107,14 @@
             "name" : "Cybersecurity I",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         },
         
@@ -81,7 +123,14 @@
             "name" : "Cybersecurity II",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : ["cysec-1"]
         }
         
@@ -90,7 +139,14 @@
             "name" : "Cybersecurity III",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : ["cysec-2"]
         }
 
@@ -100,7 +156,14 @@
             "tagline" : "",
         
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -109,7 +172,14 @@
             "name" : "Launch cyberattack against Russia",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -118,7 +188,14 @@
             "name" : "Design and distribute malware",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -127,7 +204,14 @@
             "name" : "Raid foreign datacenter",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -138,7 +222,14 @@
             "name" : "Communications I",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         },
         
@@ -147,7 +238,14 @@
             "name" : "Communications II",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : ["comm-1"]
         }
         
@@ -156,7 +254,14 @@
             "name" : "Communications III",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : ["comm-2"]
         }
 
@@ -165,7 +270,14 @@
             "name" : "Deploy batch of MITM onion routing nodes",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+             "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -174,7 +286,14 @@
             "name" : "Solicit software company to include backdoor",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+             "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -183,7 +302,14 @@
             "name" : "Issue FISA order for user data from US tech company",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -192,7 +318,14 @@
             "name" : "Contract mass-surveillance software project",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -201,7 +334,14 @@
             "name" : "Provision data warehousing facility",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -210,7 +350,14 @@
             "name" : "Install fiber optic interception apparatus",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -221,7 +368,14 @@
             "name" : "Issue statement regarding activities",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         }
 
@@ -230,7 +384,14 @@
             "name" : "Brief Congress on new initiatives",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         } 
 
@@ -239,7 +400,14 @@
             "name" : "Exert influence on Senate",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         } 
 
@@ -248,7 +416,30 @@
             "name" : "Fabricate terrorist threat",
             "tagline" : "",
             "price" : 0,
-            "outcomes" : [],
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
+            "prereqs" : []
+        } 
+
+                {
+            "shortname" : "snowden",
+            "name" : "Snowden",
+            "tagline" : "",
+            "price" : 0,
+            "outcomes" : [
+                {
+                    "money" : 0.0,
+                    "power" : 1.0,
+                    "aproval": 0.0,
+                    "progress": 0.0,
+                    "displayText" : "",
+                }
             "prereqs" : []
         } 
 
