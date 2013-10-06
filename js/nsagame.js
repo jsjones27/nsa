@@ -57,7 +57,48 @@
 			var commLevel = 0;
 
 			var eventQueue = [];
+
+			init_buttons();
 			
+		}
+
+		function init_buttons(){
+			var column1 = [];
+			var column2 = [];
+			var column3 = [];
+
+			for(action in actions) {
+				if(checkPreReqs(action)) {
+					if(action.column == 1){
+						column1.push(action);
+					}else if(action.column == 2){
+						column2.push(action);
+					}else if(action.column == 3){
+						column3.push(action);
+					}
+				}
+			}
+			var workingColumn = document.getElementById("column1");
+			if (workingColumn == undefined) {
+				console.debug("Nothing in column");
+			}
+			for(e in column1){
+				workingColumn.innerHTML += createButtonHTML(e);
+			}
+
+			var workingColumn = document.getElementById("column2");
+			for(e in column3){
+				workingColumn.innerHTML += createButtonHTML(e);
+			}
+
+			var workingColumn = document.getElementById("column3");
+			for(e in column3){
+				workingColumn.innerHTML += createButtonHTML(e);
+			}
+		}
+
+		function createButtonHTML(action) {
+			return "<a href=\"#\" class=\"gamemenu-action\">\n<span class=\"action-title\">" + action.name + "</span>\n<span class=\"action-tagline\">" + action.tagline + "</span>\n<span class=\"action-price\">$" + action.price + "</span>\n</a>";
 		}
 
 		/** Function checks that all the pre-requisits for the action have been played.
@@ -74,7 +115,7 @@
 					}
 				}
 			}
-			if (counter == action.prereqs.length) {
+			if (count == action.prereqs.length) {
 				return true;
 			} else {
 				return false;
