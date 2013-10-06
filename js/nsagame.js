@@ -176,12 +176,14 @@
 		 *  @param action - the action from which the changes originate
 		 */
 		function performAction (action) {
-			v_money += action.outcomes.money;
-			v_power += action.outcomes.power;
-			//this.v_approval += actions.outcomes.approval;
-			progress += action.progress;
+			if(action != undefined ) {
+				v_money += action.outcomes.money;
+				v_power += action.outcomes.power;
+				//this.v_approval += actions.outcomes.approval;
+				progress += action.progress;
 
-			displayText(action.outcomes.displayText);
+				displayText(action.outcomes.displayText);
+			}
 
 		}
 
