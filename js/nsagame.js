@@ -32,12 +32,17 @@
 		 *  @param action - the action the user plays
 		 */
 		function UserAction ( action ) {
-			if (this.money >= action.price && action != undefined && checkPreReqs(action)) {
+			if (action != undefined && this.money >= action.price && checkPreReqs(action)) {
 				this.money -= action.price;
 				addEvent(action);
+				updateUI();
 			} else {
 				displayText("You do not have enough funds for " + action.name);
 			}
+			
+		}
+
+		function updateUI() {
 			
 		}
 
@@ -83,19 +88,28 @@
 				console.debug("Nothing in column");
 			}
 			column1.map( function(e){
-				var object= $(createButtonHTML(e));
-				object.onclick = function(e){this.displayText("TeST");}
+				var object = $(createButtonHTML(e)).click( function(){
+					UserAction(e);
+				});
 				workingColumn.append(object);
 			});
 
 			var workingColumn = $("#column2");
 			column2.map( function(e){
-				workingColumn.append(createButtonHTML(e));
+				var object= $(createButtonHTML(e));
+				object.click( function(){
+					UserAction(e);
+				});
+				workingColumn.append(object);
 			});
 
 			var workingColumn = $("#column3");
 			column3.map( function(e){
-				workingColumn.append(createButtonHTML(e));
+				var object= $(createButtonHTML(e));
+				object.click( function(){
+					UserAction(e);
+				});
+				workingColumn.append(object);
 			});
 		}
 
