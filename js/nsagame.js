@@ -188,4 +188,12 @@
 
 	var game = new NSAGame();
 	game.init();
-	setInterval(function(){game.tick()}, game.globalTick);
+	startGame();
+	
+	function startGame() {	
+		timer = setInterval(function(){game.tick()}, game.globalTick);
+	}
+
+	function pauseGame() {
+		clearInterval(timer);
+	}
