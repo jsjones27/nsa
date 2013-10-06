@@ -115,7 +115,8 @@
 					}
 				}
 			}
-			if (count == action.prereqs.length) {
+			console.debug(action);
+			if (action != undefined && count == action.prereqs.length) {
 				return true;
 			} else {
 				return false;
