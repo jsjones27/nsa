@@ -19,12 +19,12 @@
 
 	.page-gamemenu-interestarea {
 		background-color: rgba(255,255,255,0.04);
-		padding: 15px;
-		margin-right: 15px;
+		padding: 2%;
+		margin-right: 2%;
 		float: left;
 		overflow: auto;
 		height: 280px;
-		width: 310px;
+		width: 26%;
 		border: 1px solid #444;
 	}
 
@@ -63,7 +63,7 @@
 		margin: 0 15px 15px 0;
 	}
 
-	.page-gamemenu-interestarea:last { margin: 0; }
+	.page-gamemenu-interestarea:last-child { margin: 0; }
 
 	.interestarea-menu {
 		float: left;
