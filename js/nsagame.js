@@ -236,17 +236,15 @@
 	
 	function startGame() {
 		timer = setInterval(function(){game.tick()}, game.globalTick);
-		console.debug($('#gamecontrol a').text("asdf"));
-		$('#gamecontrol a').text("asd");
+		$('#startpause').html("Pause Game");
 	}
 
 	function pauseGame() {
 		clearInterval(timer);
+		$('#startpause').html("Resume Game");
 	}
-	$('#startpause').text('asdf');
+
 	$('#startpause').click(function(){
-		$(this).text("asfd'");
-		console.debug("adsf");
 		if (game.running) {
 			pauseGame();
 		} else {
