@@ -149,7 +149,6 @@
 
 			var currentAction = eventQueue.pop();
 			while(currentAction != undefined){
-				console.debug("a");
 				performAction(currentAction);
 				pastEvents.push(currentAction);
 				currentAction = eventQueue.pop();
@@ -179,7 +178,7 @@
 		 */
 		function performAction (action) {
 			if(action != undefined ) {
-				v_money += action.outcomes.money;
+				v_money += action.outcomes[0].money;
 				v_power += action.outcomes.power;
 				//this.v_approval += actions.outcomes.approval;
 				progress += action.progress;
