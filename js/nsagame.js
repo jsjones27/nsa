@@ -48,7 +48,7 @@
 
 			this.money = this.pdf ( 12000000000, 10 );
 			this.power = 0;
-			this.approval = pdf ( 70, 5 );
+			this.approval = this.pdf ( 70, 5 );
 		
 			var date = new Date("01-01-1970");
 
@@ -86,7 +86,7 @@
 		 *
 		 * @return returns false if game has ended, true otherwise.
 		 */
-		function tick () {
+		this.tick = function () {
 
 			console.debug("testing tick...");
 			// Pop the event that's supposed to happen today and do it.
