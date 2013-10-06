@@ -25,11 +25,14 @@
 		var eventQueue = [];
 
 	
-
-		// user-initiated action
-
+		/** Funstion called when the user tries to play and action. Thre pre requisits 
+		 *  and required resources are check before the action is added to the eventQueue
+		 *  to be processed.
+		 *
+		 *  @param action - the action the user plays
+		 */
 		function UserAction ( action ) {
-			if (this.money >= action.price) {
+			if (this.money >= action.price && checkPreReqs(action)) {
 				this.money -= action.price;
 				addEvent(action);
 			} else {
@@ -38,6 +41,8 @@
 			
 		}
 
+		/** Function initializes local variables for gameplay.
+		 */
 		function init () {
 			
 			// initialize game variables
@@ -57,11 +62,11 @@
 			
 		}
 
-		/*
-			Perform one step of the game:
-				
-		*/
-
+		/** Function checks that all the pre-requisits for the action have been played.
+		 *
+		 *  @param action - action to be checked.
+		 *  @return true if pre-requisits have been met, false otherwise.
+		 */
 		function checkPreReqs(action) {
 			var count = 0;
 			for(e in pastEvents){
@@ -78,6 +83,10 @@
 			}
 		}
 
+		/** Function processes one day of gameplay.
+		 *
+		 * @return returns false if game has ended, true otherwise.
+		 */
 		function tick () {
 
 			console.debug("testing tick...");
@@ -106,6 +115,10 @@
 
 		}
 
+		/**  Function preforms the changes dictated by the action
+		 *
+		 *  @param action - the action from which the changes originate
+		 */
 		function performAction (action) {
 			this.v_money += action.outcomes.money;
 			this.v_power += action.outcomes.power;
@@ -116,20 +129,31 @@
 
 		}
 
+		/**  Function displays text on the game status terminal
+		 *
+		 *   @param text - text ot be displayed
+		 */
 		function displayText(text) {
 			//adds the text to the bottom of the status terminal
 
 		}
 
+		/** Function gets an action from the action name
+		 *
+		 *  @param actionName - the name of the action
+		 *  @return the action found with that name, undefined otherwise
+		 */
 		function getAction(actionName) {
 			for( action in actions) {
 				if(action.name == actionName) {
 					return action;
 				}
 			}
-			return false;
+			return undefined;
 		}
 
+		/**  Checks if the victory or failure conditions of the game have been met
+		 */ 
 		function checkVictory() {
 			if (progress >= 100) {
 				return true;
@@ -142,13 +166,21 @@
 
 		}
 
+		/** Adds and even to the eventQueue
+		 *
+		 *  @param newAction - action o t add to the queue
+		 */
 		function addEvent(newAction) {
 			eventQueue.push(newAction);
 		}
 
-		// Make a number "believable", +/- a given value
-		// by "fuzz" percent, given as an integer.
-
+		/** Function returns a number random number from a gaussian distibution with a provided mean
+		 *  and within the error range
+		 *
+		 *  @mean - the mean of the gaussian distribution
+		 *  @error - the max distance from the mean the number will lie
+		 *  @return and semi random number 
+		 */
 		function pdf ( mean, error ) {
 
 			return Math.floor((Math.random()*2*error)+mean-error);
