@@ -161,7 +161,8 @@
 			// Add an empty event off the end
 
 			this.date.setTime(this.date.getTime() + 86400000);
-
+			updateUI();
+			
 			if (checkVictory()) {
 				return false;
 			}else {
