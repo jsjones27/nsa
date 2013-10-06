@@ -231,12 +231,24 @@
 
 	var game = new NSAGame();
 	game.init();
+	game.running = true;
 	startGame();
 	
-	function startGame() {	
+	function startGame() {
 		timer = setInterval(function(){game.tick()}, game.globalTick);
+		$('#startpause').html("Pause Game");
 	}
 
 	function pauseGame() {
 		clearInterval(timer);
+		$('#startpause').html("Resume Game");
 	}
+
+	$('#startpause').click(function(){
+		if (game.running) {
+			pauseGame();
+		} else {
+			startGame();
+		}
+		game.running = !game.running;
+	});
