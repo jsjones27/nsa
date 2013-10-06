@@ -23,6 +23,9 @@
 		margin-right: 15px;
 		float: left;
 		overflow: auto;
+		height: 280px;
+		width: 310px;
+		border: 1px solid #444;
 	}
 
 	#page-lefthandside {
@@ -58,12 +61,6 @@
 		overflow: auto;
 		background-color: rgba(255, 128, 0, 0.05);
 		margin: 0 15px 15px 0;
-	}
-
-	.page-gamemenu-interestarea {
-		height: 280px;
-		width: 310px;
-		border: 1px solid #444;
 	}
 
 	.page-gamemenu-interestarea:last { margin: 0; }
