@@ -98,10 +98,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -118,10 +118,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
                     "approval": -10.0,
-                    "progress": 0.0,
+                    "progress":6,
                     "displayText" : "You are on your way towards a strong cyber defense."
                 }
                 ],
@@ -136,10 +136,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":-6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -154,10 +154,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
-                    "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "money" :600,
+                    "power" : 100.0,
+                    "approval":-7,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -173,14 +173,14 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
-                    "displayText" : "You have invested in a new important research."
+                    "approval":6,
+                    "progress":6,
+                    "displayText" : "You have launched a large scale cyber attack on China."
                 }
                 ],
-            "prereqs" : [],
+            "prereqs" : ["cysec-3"],
             "column": 2
         },
 
@@ -191,14 +191,14 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
-                    "displayText" : "You have invested in a new important research."
+                    "approval":6,
+                    "progress":6,
+                    "displayText" : "You have launched a large scale cyber attack on China."
                 }
                 ],
-            "prereqs" : [],
+            "prereqs" : ["cysec-3"],
             "column": 2
         },
 
@@ -209,10 +209,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -227,14 +227,14 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
-            "prereqs" : [],
+            "prereqs" : ["cysec-2"],
             "column": 2
         },
 
@@ -247,10 +247,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -265,10 +265,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -283,10 +283,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -301,10 +301,10 @@
             "price" : 2500000,
              "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -319,10 +319,10 @@
             "price" : 2500000,
              "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -337,10 +337,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -355,10 +355,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -373,10 +373,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -391,10 +391,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research."
                 }
                 ],
@@ -411,10 +411,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []
@@ -427,10 +427,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []
@@ -443,10 +443,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []
@@ -459,10 +459,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []
@@ -475,10 +475,10 @@
             "price" : 2500000,
             "outcomes" : [
                 {
-                    "money" : 0.0,
+                    "money" :6,
                     "power" : 1.0,
-                    "approval": 0.0,
-                    "progress": 0.0,
+                    "approval":6,
+                    "progress":6,
                     "displayText" : "You have invested in a new important research.",
                 }
             "prereqs" : []

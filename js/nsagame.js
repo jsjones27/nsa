@@ -64,6 +64,8 @@
 
 			var eventQueue = [];
 
+			displayText("WELCOME DIRECTOR:<br>As the new director of the National Surveillance Agency you have a unique opertunity to lead the agency to a new level of greatness. Your mission is to protect the nation and its interests in the new age of cyberwarfare <br><br><br>")
+
 			updateUI();
 		}
 
@@ -126,7 +128,7 @@
 			var count = 0;
 			for(e in pastEvents){
 				for(preReq in action.prereqs){
-					if(e == preReq) {
+					if(e == preReq || e.shortname == preReq.shortname) {
 						count += 1;
 					}
 				}
