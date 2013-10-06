@@ -127,7 +127,7 @@
 			for(e in pastEvents){
 				for(preReq in action.prereqs){
 					if(e == preReq) {
-						counter += 1;
+						count += 1;
 					}
 				}
 			}
@@ -149,8 +149,10 @@
 
 			var currentAction = eventQueue.pop();
 			while(currentAction != undefined){
+				console.debug("a");
 				performAction(currentAction);
-				this.pastEvents.push(currentAction);
+				pastEvents.push(currentAction);
+				currentAction = eventQueue.pop();
 			}
 
 			//Increments our values
