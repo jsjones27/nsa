@@ -12,7 +12,7 @@
 				{
                     "money" : 10.0,
 					"power" : 1000.0,
-                    "aproval": -5.0,
+                    "approval": -5.0,
                     "progress": 2.5,
 					"displayText" : "",
 				}
@@ -59,7 +59,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -75,7 +75,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -91,7 +91,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -109,7 +109,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -125,7 +125,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -141,7 +141,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -158,7 +158,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -174,7 +174,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -190,7 +190,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -206,7 +206,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -224,7 +224,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -240,7 +240,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -256,7 +256,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -272,7 +272,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -288,7 +288,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -304,7 +304,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -320,7 +320,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -336,7 +336,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -352,7 +352,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -370,7 +370,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -386,7 +386,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -402,7 +402,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -418,7 +418,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
@@ -434,7 +434,7 @@
                 {
                     "money" : 0.0,
                     "power" : 1.0,
-                    "aproval": 0.0,
+                    "approval": 0.0,
                     "progress": 0.0,
                     "displayText" : "",
                 }
